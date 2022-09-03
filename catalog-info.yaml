@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Documentations
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: DevEx
+  lifecycle: experimental
